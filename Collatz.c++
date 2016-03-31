@@ -88,4 +88,5 @@ void collatz_solve (istream& r, ostream& w) {
         const int            i = p.first;
         const int            j = p.second;
         const int            v = collatz_eval(i, j);
-        collatz_print(w, i, j, v);}}
+        collatz_print(w, i, j, v);}
+        cout<<endl;}
